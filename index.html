@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Лабораторная работа №5</h1>
+    <!-- <h1>Лабораторная работа №5</h1>
     <p>
       Это моя первая HTML-страница, созданная в рамках изучения основ
       веб-разметки.
@@ -134,7 +134,53 @@
             <td>C#</td>
             <td>Волжский</td>
         </tr>
-
     </table>
+
+
+
+
+        <input type="text" placeholder="Введите имя">
+        <input type="text" placeholder="Введите email">
+        <input type="text" placeholder="Введите пароль">
+        <input type="text" placeholder="Возраст">
+        <input type="date">
+        <input type="checkbox"> Я соглсаен
+        <input type="radio" name="gender"> Мужчина
+        <input type="radio" name="gender"> Женщина           -->
+
+        <textarea placeholder="Введжите сообщение" rows="4"></textarea>
+        <select>
+            <option>ИСП-231</option>
+            <option>ИСП-232</option>
+            <option>ИСП-233</option>
+        </select>
+
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+
+        <label for="username">Ваше имя:</label>
+        <label for="username" type="text"></label>
+
+
+        <h2>Пример HTML-формы</h2>
+        <form>
+            <label for="username">Имя:</label>
+            <label id="username" type="text" placeholder="Введите имя"></label>
+            <br><br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="example@mail.com">
+            <br><br>
+            <label for="city">Город:</label>
+            <select id="city">
+                <option>Волгоград</option>
+                <option>Волжский</option>
+                <option>Камышин</option>
+            </select>
+            <br><br>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" rows="4" placeholder="Напишите текст..."></textarea>
+            <br><br>
+            <button type="submit">Отправить</button>
+        </form>
   </body>
 </html>
